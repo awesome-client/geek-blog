@@ -2,7 +2,12 @@ import {createApp} from 'vue'
 import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
-import store, {setUpStore} from './store'
+import {create, NButton, NInput, NPopselect, NMenu} from 'naive-ui'
 
 const app = createApp(App)
-app.use(router).mount('#app')
+
+const naive = create({
+  components: [NInput, NButton, NPopselect, NMenu],
+})
+
+app.use(router).use(naive).mount('#app')
