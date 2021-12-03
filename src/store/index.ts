@@ -1,11 +1,11 @@
-import {createStore} from 'vuex'
-import test from './modules/test'
+import CommonStore from './common'
 
-export default createStore({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {
-    test,
-  },
-})
+const common = new CommonStore()
+
+const useStore = () => {
+  return {
+    common,
+  }
+}
+
+export default useStore

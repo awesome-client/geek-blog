@@ -20,6 +20,7 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'no-use-before-define': 'warn',
     'vue/no-unused-components': 'warn',
+    '@typescript-eslint/ban-types': 'off',
   },
   overrides: [
     {

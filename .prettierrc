@@ -1,18 +1,18 @@
 {
-    "singleQuote": true,
-    "trailingComma": "all",
-    "printWidth": 80,
-    // "endOfLine": "crlf",
-    "semi": false,
-    "bracketSpacing": false,
-    "jsxBracketSameLine": true,
-    "overrides": [
-      {
-        "files": ".prettierrc",
-        "options": {"parser": "json"}
-      }
-    ],
-    "importOrder": ["^react", "^@", "^[a-zA-Z]", "^[./]"],
-    "importOrderSeparation": true,
-    "experimentalBabelParserPluginsList": ["jsx", "typescript"]
-  }
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 80,
+  "semi": false,
+  "endOfLine": "crlf",
+  "bracketSpacing": false,
+  "jsxBracketSameLine": true,
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {"parser": "json"}
+    }
+  ],
+  "importOrder": ["^react", "^@", "^[a-zA-Z]", "^[./]"],
+  "importOrderSeparation": true,
+  "experimentalBabelParserPluginsList": ["jsx", "typescript"]
+}
